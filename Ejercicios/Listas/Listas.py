@@ -39,3 +39,8 @@ print(lista3)
 
 lista3.append("el último")
 print(lista3)
+
+nombre = "Panchito"
+#print(nombre.)  #Control+espacio para ver lo que puedes hacer con el tipo de objeto
+
+
