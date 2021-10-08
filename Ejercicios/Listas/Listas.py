@@ -43,4 +43,62 @@ print(lista3)
 nombre = "Panchito"
 #print(nombre.)  #Control+espacio para ver lo que puedes hacer con el tipo de objeto
 
+"""Lista con algunos presidentes de México"""
+
+presidentes = ["Andres Manuel", "Enrique Peña", "Felipe Calderón", "Vicente Fox"]
+print (presidentes)
+
+for presidente in presidentes:
+    print(f"Hola {presidente}, cuánto dinero te robaste?")
+    print("Devuelve el dinero, no seas ratero")
+
+for valor in range(1, 1000):
+    print (valor)
+
+for indice in range (0, len(presidentes)): #el cero pudo haberse omitido, porque si no lo pones el inicio en automático es cero
+    print (presidentes[indice])
+
+for valor in range (0, 20, 2): #el incremento es de 2 en 2
+    print (valor)
+
+for valor in range(20):
+    print (valor)
+
+
+digitos = list(range(10))
+print (digitos)
+print (max(digitos))
+print (min(digitos))
+print (sum(digitos))
+print (sum(digitos) / len(digitos))
+
+"""Código para generar la lista de cuadrados de un rango versión 1"""
+
+cuadrados = []
+for value in range (1, 11):
+    cuadrado = value **2
+    cuadrados.append(cuadrado)
+print (cuadrados)
+
+"""Código para generar la lista de cuadrados de un rango versión 2"""
+cuadrados = [value **2 for value in range (1, 11)]  #si le pones str antes de value: str (value) te regresa valores de cadena
+print (cuadrados)
+
+"""Vaciar una lista"""
+invitados = ["Luis", "José", "Adrián", "Fernando", "Juan"]
+while len(invitados) > 2:
+    invitado = invitados.pop()
+    print(f"{invitado}, tu ya no estás invitado")
+
+print (invitados)
+
+# ultimos_presidentes = presidentes [:2] # Desde el principio hasta el valor dos
+# ultimos_presidentes = presidentes [2:] # Desde el segundo valor hasta el final de la lista
+# ultimos_presidentes = presidentes [-1:] #último valor hasta el último
+# ultimos_presidentes = presidentes [-2:] #Desde el penúltimo valor hasta el último
+# ultimos_presidentes = presidentes [0:2]
+# print (ultimos_presidentes)
+for presidente in presidentes[1:]:
+    print(f"{presidente} Tu ya no eres presidente")
+
 
