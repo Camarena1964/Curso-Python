@@ -45,22 +45,22 @@
 
 #Busqueda de un valor en una lista version 1:
 # numeros=[2,9,45,62,1,3]
-# busqueda=3
+# busqueda=5
 # salida = False
 # for numero in numeros:
 #     if numero == busqueda:
 #         salida = True
-#         print ("Este valos si se encuentra en la lista")
+#         print ("Este valor si se encuentra en la lista")
 # if salida == False:
 #         print ("Ese valor no se encuentra en la lista")   
 
-#Busqueda de un valor en una lista version 2:
-# numeros=[2,9,45,62,1,3]
-# busqueda=4
-# if busqueda in numeros:
-#     print ("Si se encuentra")
-# else:
-#     print ("No se encuentra")
+# Busqueda de un valor en una lista version 2:
+numeros=[2,9,45,62,1,3]
+busqueda=4
+if busqueda in numeros:
+    print ("Si se encuentra")
+else:
+    print ("No se encuentra")
 
 """Calcular el costo del ticket en selva magica"""
 edad = 45
