@@ -118,7 +118,8 @@ print(f"{'*'*20}\n")
 
 #Retornando un diccionario agregando con claves y valores declarados
 print("14. Retornando un diccionario de los valores declarados")
-x = ["Key1", "Key2"]
-c = ""
-dict3 = dict.fromkeys(x, c)
+campo = ["Key1", "Key2"]
+valor = ["1", "2"]
+dict3 = dict.fromkeys(campo, valor)  #En realidad estamos creando un diccionario a partir de unos valores previos
+#dict3 = {}.fromkeys(campo, valor)  También sirve para crear diccionarios y es más común
 print (dict3)
