@@ -123,3 +123,11 @@ valor = ["1", "2"]
 dict3 = dict.fromkeys(campo, valor)  #En realidad estamos creando un diccionario a partir de unos valores previos
 #dict3 = {}.fromkeys(campo, valor)  También sirve para crear diccionarios y es más común
 print (dict3)
+
+# 28/10/2021
+
+print("15. Nuevas formas de usar update con tuplas")
+dic = {}
+dic.update({"nombre" : "Francisco"})
+dic.update([("apellido paterno", "Méndez"), ("apellido materno", "Pelayo")])
+print(dic)
