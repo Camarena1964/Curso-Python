@@ -17,7 +17,7 @@ def button_click(button_content):
 
 def solve():
     current_value = display_text.get()
-    result = str(eval(current_value))
+    result = str(eval(current_value))  #eval es peligroso porque basicamente hace python interactivo
 
     display_text.set(result)
 
